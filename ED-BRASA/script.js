@@ -20,3 +20,21 @@ document.getElementById('meuFormulario').addEventListener('submit', function(eve
             alert("Insira um codigo valido! Tente Novamente");
         }
     });
+
+
+document.getElementById('form2').addEventListener('submit', function(event) {
+    let valor = document.getElementById('codigo2').value;
+    if (valor.trim() % 2 === 0) {
+        alert("Par");
+        event.preventDefault();
+    }
+    else{
+        alert("Impar");
+    }
+});
+
+let resultado = "";
+    for (let i = 0; i < 10; i++) {
+        resultado += "\n Fatec Taquaritinga";
+    }
+    console.log(resultado);

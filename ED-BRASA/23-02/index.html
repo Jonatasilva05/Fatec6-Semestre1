@@ -20,34 +20,20 @@
     <br>
 
     <div class="exer2">
+        <h2>Exercicio 2</h2>
         <input type="text" id="valorDig" placeholder="Digite um numero: ">
         <button id="verific" onclick="checkNum2()">Verificar</button>
-        <script>
-            let inputVar = document.getElementById('valorDig').value;
-            let buttonVar = document.getElementById('verific');
+        <p id="resultado"></p>
+    </div>
 
-            function checkNum2(){
-                if(inputVar === ''){
-                alert('Campo vazio, por favor digite um numero');
-            }
+    <br>
 
-                let par = '';
-                let impar = '';
-                if(inputVar % 2 === 0){
-                    par = inputVar;
-                    console.log('Par: ' + par);
-                } else {
-                    impar = inputVar;
-                    console.log('Ímpar: ' + impar);
-                }
-
-                document.write('Par: ' + par + '<br>');
-                document.write('Ímpar: ' + impar);
-            }
-
-        </script>
+    <div class="exer3">
+        <input type="text" id="vlEx3" placeholder="Digite um numero: ">
+        <button id="verific3" onclick="checkNum3()">Validar Codigo</button>
+        <p id="resultado3" aria-live="polite"></p>
     </div>
 
 </body>
-
+<script src="./script.js"></script>
 </html>

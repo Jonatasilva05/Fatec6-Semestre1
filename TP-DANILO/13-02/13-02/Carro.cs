@@ -9,22 +9,24 @@ namespace _13_02
     public class Carro
     {
         //Caracteristicas do Carro = Propriedades/Atributos
-
-        public string? marca; // A ? (interrogação é porque ele pode ser umm valor nulo)
+        // A ? (interrogação é porque ele pode ser umm valor nulo)
+        public string? marca; 
         public string? modelo;
         public int ano;
         public string? placa;
 
+        
         //Ações do Carro - Metodos/Comportamentos
-
         public void MostrarInfoCarro()
-        {;
+        {
             Console.WriteLine("Marca: "  + marca);
             Console.WriteLine("Modelo: " + modelo);
             Console.WriteLine("Ano: " + ano); 
             Console.WriteLine("Placa: " + placa);
         }
-        public void acelerar() //void e para indicar que é um metodo
+
+        //void e para indicar que é um metodo
+        public void acelerar()
         {
             Console.WriteLine("O carro acelerou");
         }

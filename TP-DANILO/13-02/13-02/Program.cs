@@ -17,13 +17,7 @@ Console.WriteLine("Informe a Placa do Carro");
 meuCarro.placa = Console.ReadLine();
 
 
-
-
-
 Console.WriteLine("------------------");
-
-
-
 
 
 meuCarro.MostrarInfoCarro();
@@ -53,3 +47,4 @@ CarroAntigo.ligarCarro();
 CarroAntigo.acelerar();
 CarroAntigo.brecar();
 CarroAntigo.desligarCarro();
+

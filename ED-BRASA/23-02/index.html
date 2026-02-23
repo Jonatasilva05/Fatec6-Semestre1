@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Para obter os Resultados abra a aba ferrametas do desenvolvedor</h1>
+
+    <br>
+
+    <div class="exer1">
+        <h2>Exercicio 1</h2>
+        <input type="text" id="numero" placeholder="Digite um número: ">
+        <button id="verificar" onclick="checkNum()">Verificar</button>
+    </div>
+
+    <br>
+
+    <div class="exer2">
+        <input type="text" id="valorDig" placeholder="Digite um numero: ">
+        <button id="verific" onclick="checkNum2()">Verificar</button>
+        <script>
+            let inputVar = document.getElementById('valorDig').value;
+            let buttonVar = document.getElementById('verific');
+
+            function checkNum2(){
+                if(inputVar === ''){
+                alert('Campo vazio, por favor digite um numero');
+            }
+
+                let par = '';
+                let impar = '';
+                if(inputVar % 2 === 0){
+                    par = inputVar;
+                    console.log('Par: ' + par);
+                } else {
+                    impar = inputVar;
+                    console.log('Ímpar: ' + impar);
+                }
+
+                document.write('Par: ' + par + '<br>');
+                document.write('Ímpar: ' + impar);
+            }
+
+        </script>
+    </div>
+
+</body>
+
+</html>

@@ -64,3 +64,67 @@ Com a classe conseguimos gerar qualquer tipo de objeto
 
 ---
 
+    Public Class Aluno
+    {
+        Private Int RA; //ENCAPSULAMENTO
+
+        //METODO PARA ATRIBUIÇÃO DE VALOR
+        Public Void SetRA(Int _RA)
+        {
+            RA = _RA
+        }
+
+        Public void GetRA(Int _RA)
+        {
+            Console.WriteLine(RA _RA);
+        }
+
+        Public String Nome;
+        Public String Email;
+        Public String Idade;
+    }
+
+---
+
+<br>
+
+---
+
+## Conceito de Herança
+
+Classe Pai **ALUNO** -> RA, IDADE, NOME, FREQUENTAR_AULA
+
+CLasse Filhas **ALUNO CALOURO** FREQUENCIA_OBRIGATORIA
+
+CLasse Filhas **ALUNO VETERANO** TCC, ESTAGIAR 
+
+"SubClasse" do ALUNO VETERANO **ALUNO 2 BIMESTRE** PI 2
+
+"SubClasse" do ALUNO VETERANO **ALUNO 3 BIMESTRE** PI 3
+
+---
+<br>
+
+Classe Pai **VEICULO**
+
+Classe Filho **TERRESTRE**
+
+Classe Filho **AÉREO**
+
+Classe Filho **MARÍTIMO**
+
+---
+<br>
+
+Classe Pai **ANIMAL**
+
+Classe Filho **VERTEBRADO**
+
+"SubClasse" do VERTEBRADO **MAMIFERO**
+
+"SubClasse" do VERTEBRADO **AVE**
+
+Classe Filho **INVERTEBRADO**
+
+---
+<br>

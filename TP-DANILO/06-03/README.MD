@@ -13,6 +13,7 @@ Com a classe conseguimos gerar qualquer tipo de objeto
 ---
 
 # Exemplo de C#
+<<<<<<< HEAD
     Public Class Aluno 
     {
         public int RA;
@@ -39,11 +40,28 @@ Com a classe conseguimos gerar qualquer tipo de objeto
 
         Aluno AlunoADS = new AlunoAds("Pedro");
     }
+=======
+Public Class Aluno 
+{
+
+    public int RA;
+
+
+    public String Nome;
+    public Int Idade;
+
+    public void Estagiar()
+    {
+        Console.WriteLine("Estagiando!");
+    }
+}
+>>>>>>> cbd328718ce0f0b7c99215f656418b238ed77e49
 
 *Modificadores de Acesso*
 - Public  - Acesso em todo o projeto
 - Private - Acesso somente dentro da classe
 - Internal
+<<<<<<< HEAD
 - Protected
 
 ---
@@ -128,3 +146,6 @@ Classe Filho **INVERTEBRADO**
 
 ---
 <br>
+=======
+- Protected
+>>>>>>> cbd328718ce0f0b7c99215f656418b238ed77e49

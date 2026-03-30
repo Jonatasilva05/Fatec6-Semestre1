@@ -58,7 +58,7 @@ Define o limite de ocorrências:
 🧾 Estudo de Caso: Pessoa e CPF
 👤 Pessoa (1,1)
 - Deve possuir exatamente um CPF
-🆔 CPF (1,1)
+🆔 CPF (1,1) 
 - Deve estar vinculado a uma única pessoa
 
 ⚖️ Regra de Negócio

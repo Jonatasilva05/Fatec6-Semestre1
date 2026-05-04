@@ -1,11 +1,8 @@
-
 let itens = [];
-
 
 function gravarnafila(elemento) {
     itens.push(elemento);
 }
-
 
 function estavazia() {
  if (itens.length == 0){

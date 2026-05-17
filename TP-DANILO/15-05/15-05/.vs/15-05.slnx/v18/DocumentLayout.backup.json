@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\jonat\\OneDrive\\Documentos\\Fatec6-Semestre1\\TP-DANILO\\15-05\\15-05\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97539DC5-90A8-4223-9444-C43D098C9B29}|15-05\\15-05.csproj|c:\\users\\jonat\\onedrive\\documentos\\fatec6-semestre1\\tp-danilo\\15-05\\15-05\\15-05\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97539DC5-90A8-4223-9444-C43D098C9B29}|15-05\\15-05.csproj|solutionrelative:15-05\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jonat\\OneDrive\\Documentos\\Fatec6-Semestre1\\TP-DANILO\\15-05\\15-05\\15-05\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:15-05\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,10 +28,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T13:05:15.862Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
